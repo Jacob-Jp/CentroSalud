@@ -24,7 +24,7 @@
         <li><a href="/CentroSalud/PagPersonal/agregarInventario.php">Inventario</a></li>
         <li><a href="/CentroSalud/Pacientes/Pacientes.php">Pacientes</a></li>
         <li><a href="#">Perfil</a></li>
-        <li><a href="/CentroSalud/cerrarSesion.php" class="btn-cerrar-sesion">Cerrar Sesión</a></li>
+        <li><a href="/CentroSalud/Scripts/cerrarSesion.php" class="btn-cerrar-sesion">Cerrar Sesión</a></li>
 
       </ul>
     </nav>
