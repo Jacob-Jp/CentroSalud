@@ -1,0 +1,18 @@
+.mensaje-despedida {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn-regresar {
+  display: inline-block;
+  background-color: #4caf50; /* Color verde para el botón */
+  color: white; /* Texto blanco */
+  padding: 10px 15px; /* Espaciado */
+  text-decoration: none; /* Sin subrayado */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn-regresar:hover {
+  background-color: #45a049; /* Color más oscuro al pasar el mouse */
+}

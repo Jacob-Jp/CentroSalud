@@ -1,0 +1,223 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #dbe4ed;
+}
+
+header {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+  display: flex;
+  background-color: #365b77;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px#235;
+}
+
+div .logo {
+  height: 70px;
+  width: auto;
+}
+
+div .logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.title-nav {
+  margin-left: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #dbe4ed;
+  flex: 1;
+}
+
+h2 {
+  text-align: center;
+  color: #012e46;
+  letter-spacing: 2px;
+}
+
+.conteiner-h2 {
+  width: 40%;
+  height: 300px;
+  margin: auto;
+}
+
+.logo-yucatan {
+  width: 300px;
+  height: 300px;
+  margin-left: 30%;
+}
+
+nav {
+  position: absolute;
+  right: 40px;
+  padding: 15px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 2px;
+  margin-left: 20px;
+}
+
+a {
+  font-size: 17px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.nav-links li a:hover {
+  font-size: 17px;
+  background-color: #2354;
+}
+
+.nav-links a {
+  font-size: 700;
+  padding: 3px 5px;
+  border-radius: 5px;
+  color: azure;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section-list {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li span {
+  font-weight: bold;
+}
+
+.quick-actions ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin: auto;
+}
+
+/* Media Queries para hacer la página responsive */
+@media (max-width: 1024px) {
+  .conteiner-h2 {
+    width: 60%;
+    height: auto;
+  }
+
+  .logo-yucatan {
+    width: 200px;
+    margin-left: 25%;
+  }
+
+  nav {
+    right: 20px;
+  }
+
+  h1 {
+    margin-left: 10px;
+    font-size: 1.5em;
+    text-align: left; /* Se asegura de que el texto esté alineado a la izquierda */
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conteiner-h2 {
+    width: 80%;
+  }
+
+  .logo-yucatan {
+    width: 180px;
+    margin-left: 0;
+  }
+
+  nav {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    margin-left: 10px;
+  }
+
+  h1 {
+    margin-left: 0;
+    font-size: 1.4em;
+    text-align: center; /* Centra el h1 en pantallas pequeñas */
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 50px;
+  }
+
+  .conteiner-h2 {
+    width: 90%;
+  }
+
+  .logo-yucatan {
+    width: 150px;
+    margin-left: 0;
+  }
+
+  nav {
+    padding: 5px;
+  }
+
+  .nav-links li {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.2em;
+    margin-left: 0;
+    text-align: center; /* Mantiene el texto centrado en pantallas pequeñas */
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+}

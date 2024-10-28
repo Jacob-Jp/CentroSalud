@@ -1,0 +1,168 @@
+body {
+  font-family: "Poppins";
+  background-color: #b5bac9;
+  margin: 0;
+}
+
+.contenedor-citas {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #021d34;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.citas {
+  font-size: 35px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+.citas,
+h2 {
+  letter-spacing: 2px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.formulario {
+  color: #2c3e50;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 3px solid #365b77;
+  border-radius: 15px;
+  width: 85%;
+  margin: 15px 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: transparent;
+}
+input[type="date"] {
+  margin-left: 10px;
+  text-align: center;
+  border: 2px solid #365b77;
+  background-color: transparent;
+  color: #021d34;
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+select {
+  font-family: "Poppins";
+  background-color: transparent;
+  margin-left: 10px;
+  text-align: center;
+  border: 2px solid #365b77;
+  background-color: transparent;
+  color: #021d34;
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+}
+option {
+  background-color: #4a7595;
+  color: #fff;
+}
+
+.button-agregar {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #365b77;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-agregar:hover {
+  background-color: #02253d;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #365b77;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #02253d;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #3498db;
+  color: white;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+button.editar,
+button.eliminar {
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+button.editar {
+  background-color: #3498db;
+  color: white;
+}
+
+button.eliminar {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button.editar:hover {
+  background-color: #297fb9d1;
+}
+
+button.eliminar:hover {
+  background-color: #c0392b;
+}
+
+#buscar-medicamento {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
