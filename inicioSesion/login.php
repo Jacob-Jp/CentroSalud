@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/CentroSalud/inicioSesion/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -16,7 +17,7 @@
             <h1>Iniciar sesión</h1>
             <label class="div-email">
                 <i class='bx bx-envelope'></i>
-                <input type="text" placeholder="Nombre Usuario" name="Nombre" required>
+                <input type="text" placeholder="Nombre Usuario" id="Nombre" name="Nombre" required>
             </label>
             <div class="div-img">
                 <img class="img-usuario"
@@ -27,7 +28,7 @@
                 <input type="password" name="Contra" id="contraseña" placeholder="Ingrese su contraseña" required>
             </label>
             <label for="">Seleccionar Perfil: </label>
-            <select name="perfil" required>
+            <select name="perfil" id="perfil">
                 <option value="">--Seleccione su Tipo de Perfil--</option>
                 <option value="medico">Médico</option>
                 <option value="secretaria">Secretaria</option>
@@ -37,6 +38,8 @@
             <button type="submit">Iniciar Sesión</button>
         </form>
     </div>
+
+
 </body>
 
 </html>
